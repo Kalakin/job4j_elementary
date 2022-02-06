@@ -8,15 +8,15 @@ public class FactorialTest {
     @Test
     public void whenCalculateFactorialForFiveThenOneHundredTwenty() {
         int in = 5;
-        int result = Factorial.calc(n);
-        int expected = 100;
+        int result = Factorial.calc(in);
+        int expected = 120;
         Assert.assertEquals(expected, result);
     }
 
     @Test
     public void whenCalculateFactorialForZeroThenOne() {
         int in = 0;
-        int result = Factorial.calc(n);
+        int result = Factorial.calc(in);
         int expected = 1;
         Assert.assertEquals(expected, result);
     }
