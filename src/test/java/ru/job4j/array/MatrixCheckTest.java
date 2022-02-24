@@ -43,7 +43,7 @@ public class MatrixCheckTest {
     @Test
     public void whenHasMonoVertical2() {
         char[][] input = {
-                {'X', ' ', ' '},
+                {' ', ' ', ' '},
                 {'X', ' ', ' '},
                 {'X', ' ', ' '},
         };
