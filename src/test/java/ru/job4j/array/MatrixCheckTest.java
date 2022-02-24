@@ -17,13 +17,13 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenHasMonoHorizontal2() {
+    public void whenHasNotMonoHorizontal() {
         char[][]input = {
                 {' ', ' ', ' '},
                 {' ', ' ', ' '},
                 {'X', 'X', ' '},
         };
-        int row = 0;
+        int row = 2;
         boolean result = MatrixCheck.monoHorizontal(input, row);
         Assert.assertFalse(result);
     }
