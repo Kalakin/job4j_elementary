@@ -41,13 +41,13 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenHasMonoVertical2() {
+    public void whenHasNotMonoVertical() {
         char[][] input = {
                 {' ', ' ', ' '},
                 {'X', ' ', ' '},
                 {'X', ' ', ' '},
         };
-        int column = 1;
+        int column = 0;
         boolean result = MatrixCheck.monoVertical(input, column);
         Assert.assertFalse(result);
     }
